@@ -21,7 +21,7 @@ namespace Proyecto_AcessoADatos.Controllers
             return apuesta;
         }
 
-        /** Ejercicio 1 */
+        /** Ejercicio 1 **/
         // GET: api/apuestas?usuario=valor1&cuota=valor2
         public List<apuestas> GetApuestas(int usuario, int Cuota)
         {
@@ -29,7 +29,7 @@ namespace Proyecto_AcessoADatos.Controllers
             List<apuestas> apuesta = repo.RetrieveApuesta(usuario, Cuota);
             return apuesta;
         }
-        /** FIN Ejercicio 1 */
+        /** FIN Ejercicio 1 **/
 
         // GET: api/apuestas/5
         public List<apuestas> Get(int id)
